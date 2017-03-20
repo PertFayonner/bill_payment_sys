@@ -1,2 +1,2 @@
 # bill_payment_sys
-Bill Payment Systm
+A Utility Bill Payment system that gives the user a convenience to pay bills online using various payment options.
