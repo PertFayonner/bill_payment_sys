@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="BPS.Masterpage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BILL PAYMENT SYSTEM</title>
+    <link href="Styles/Master.css" rel="stylesheet" type="text/css" />
+
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div id="container1">
+    <div id="heading"><p style="font-family:Georgia, serif;font-style:inherit; color:White">BILL PAYMENT SYSTEM</p>
+    </div>
+
+
+    <div id="navigation" dir="ltr">
+    
+    
+    <div id="A"><a id="a1" href="Home.aspx">Home</a></div>
+    <div id="B"><a id="b1" href="Vendor_Reg.aspx">Register Vendor</a></div>
+    <div id="C"><a id="c1" href="Vendor.aspx">Update Vendor</a></div>
+    <div id="D"><a id="d1" href="Cust_Reg.aspx">Register Customer</a></div>
+     <div id="E"><a id="e1" href="Customer.aspx">Update Customer</a></div>
+     
+    <div id="G"><a id="g1" href="Welcome.aspx">Logout</a></div>
+    </div>
+
+  <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <div id="footer">
+    <p>Copyrights Reserved</p>
+    </div>
+    </div>
+    
+    </form>
+</body>
+</html>
